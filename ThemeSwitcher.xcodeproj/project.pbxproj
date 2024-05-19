@@ -11,6 +11,7 @@
 		ACCC6D632BF9B42400F2DB6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC6D622BF9B42400F2DB6A /* ContentView.swift */; };
 		ACCC6D652BF9B42600F2DB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCC6D642BF9B42600F2DB6A /* Assets.xcassets */; };
 		ACCC6D682BF9B42600F2DB6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCC6D672BF9B42600F2DB6A /* Preview Assets.xcassets */; };
+		ACCC6D702BF9B51900F2DB6A /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC6D6F2BF9B51900F2DB6A /* ThemeChangeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ACCC6D622BF9B42400F2DB6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACCC6D642BF9B42600F2DB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCC6D672BF9B42600F2DB6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACCC6D6F2BF9B51900F2DB6A /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		ACCC6D5F2BF9B42400F2DB6A /* ThemeSwitcher */ = {
 			isa = PBXGroup;
 			children = (
+				ACCC6D6E2BF9B50A00F2DB6A /* Helper */,
 				ACCC6D602BF9B42400F2DB6A /* ThemeSwitcherApp.swift */,
 				ACCC6D622BF9B42400F2DB6A /* ContentView.swift */,
 				ACCC6D642BF9B42600F2DB6A /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				ACCC6D672BF9B42600F2DB6A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACCC6D6E2BF9B50A00F2DB6A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC6D6F2BF9B51900F2DB6A /* ThemeChangeView.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCC6D702BF9B51900F2DB6A /* ThemeChangeView.swift in Sources */,
 				ACCC6D632BF9B42400F2DB6A /* ContentView.swift in Sources */,
 				ACCC6D612BF9B42400F2DB6A /* ThemeSwitcherApp.swift in Sources */,
 			);
